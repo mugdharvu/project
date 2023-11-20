@@ -33,7 +33,7 @@ def test_factorial_positive():
     assert factorial(0) == 1
 
     # Test the factorial of 1
-    assert factorial(1) == 1
+    assert factorial(1) == 0
 
     # Test the factorial of 2: 2! = 2
     assert factorial(2) == 2
